@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import Ant from './Ant';
 import Semantic from './Semantic';
 import Elemental from './Elemental';
-import ReactUI from './ReactUI';
+//import Blueprint from './Blueprint';
+//import Belle from './Belle';
+//import ReactUI from './ReactUI';
 import './App.css';
 
 class App extends Component {
@@ -12,7 +14,9 @@ class App extends Component {
         <Ant title="Ant" />
         <Semantic title="Semantic" />
         <Elemental title="Elemental" />
-        <ReactUI title="ReactUI" />
+       {/* <Blueprint title="Blueprint" /> */}
+       {/* <Belle title="Belle" /> */}
+       {/* <ReactUI title="ReactUI" />*/}
       </div>
 
     );
